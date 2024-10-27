@@ -14,11 +14,16 @@
             <input type="text" id="name">
             <label for="name">Full name</label>
 
-            <input type="number" id="age">
+            <input type="date" id="age" >
             <label for="age">Age</label>
 
-            <input type="text" id="gender">
+            <select name="gender" id="gender">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="O">Other</option>
+            </select>
             <label for="gender">Gender</label>
+
             <button type="submit">Submit</button>
 
         </form>
@@ -27,6 +32,7 @@
         <p id="nameOutput">Name:<p>
         <p id="ageOutput">Age:</p>
         <p id="genderOutput">Gender:</p>
+        <p id="eligible">Is Eligible to Drive:</p>
     </section>
     
 </body>
